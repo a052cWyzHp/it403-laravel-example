@@ -1,0 +1,9 @@
+<div class="flex flex-col items-center justify-center space-y-4">
+    <div class="text-2xl font-bold">
+        {{ $counter }}
+    </div>
+    <div class="flex items-center justify-center sapce-x-4 p-6">
+        <button wire:click="increment" class="px-4 py-2 bg-blue-500 text-white rounded hover:bg-blue-600">Increment</button>
+        <button wire:click="decrement" class="px-4 py-2 bg-red-500 text-white rounded hover:bg-red-600">Decrement</button>
+    </div>
+</div>
